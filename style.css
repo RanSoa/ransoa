@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+   font-family: 'Poppins', Courier, monospace;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+header
+{
+   background-color: rgb(9, 2, 70);
+   z-index: 999;
+   width: 100%;
+   position: fixed;
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 50px;
+   align-items: center;
+}
+.logo
+{
+   text-decoration: none;
+   font-family: 'Poppins', Courier New, monospace;
+   color: #f519b3;
+   width: 1.6em;
+   font-size: 1.6em;
+   font-weight: 700;
+}
+
+.navigation a
+{
+   text-decoration: none;
+   color: rgb(255, 94, 0);
+   font-weight: 500;
+   font-size: 1.15em;
+   width: 1.5em;
+   padding-left: 50px;
+}
+
+.navigation a:hover
+{
+   color: rgb(166, 255, 0);
+}
+
+section
+{
+   padding: 100px 150px;
+}
+
+.main
+{
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   background-size: cover;
+   background-position: center;
+   background: url(assets/Images/6372463_3200146.jpg);
+}
+
+.main h2
+{
+   color: white;
+   font-size: 1.6em;
+   font-weight: 800;
+}
+
+.main h2 span
+{
+   display: inline-block;
+   margin-top: 10px;
+   color: #ff008c;
+   font-size: 1.8em;
+   animation: Color 4s linear infinite;
+}
+
+.main h3
+{
+   color: white;
+   font-size: 1.6em;
+   font-weight: 700;
+   letter-spacing: 1px;
+}
+
+.main-btn
+{
+   text-decoration: none;
+   color: #ffffff;
+   background-color: #f519b3;
+   font-size: 1.1em;
+   font-weight: 650;
+   display: inline-block;
+   padding: 0.9375em 2.187em;
+   letter-spacing: 1px;
+   border-radius: 15px;
+   margin-bottom: 40px;
+   margin-top: 25px;
+   transition: 0.8s ease;
+}
+
+.main-btn:hover
+{
+   background-color: #f30f2d;
+   transform: scale(1.1);
+}
+
+
+.social-icons a
+{
+   color: #f519b3;
+   font-size: 1.6em;
+   padding-right: 30px;
+}
+
+.social-icons a:hover
+{
+   color: #f30f2d;
+}
+
+.title
+{
+   display: flex;
+   justify-content: center;
+   color: #0b18d8;
+   font-weight: 900;
+   font-size: 2.2em;
+   margin-bottom: 30px;
+}
+
+.content
+{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.card
+{
+   background-color: #ffffff;
+   width: 15.25em;
+   box-shadow: 0 5px 25px rgba(1 1 1 / 25%);
+   border-radius: 10px;
+   transition: 0.8s;
+   padding: 30px 35px;
+}
+
+.card:hover
+{
+   transform: scale(1.1);
+}
+
+.icon
+{
+   color: #ff00b3;
+   font-size: 3em;
+   font-weight: bold;
+   text-align: center;
+}
+
+.details h3
+{
+   color: #f30f2d;
+   font-size: 1.4em;
+   font-weight: 800;
+   margin: 10px;
+}
+
+.details
+{
+   text-align: center;
+}
+
+.contact
+{
+   box-shadow: 0 5px 25px rgba(1, 1, 1, 100%);
+}
+
+.callme
+{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.fb_card
+{
+   background-color: #ffffff;
+   width: 15.25em;
+   box-shadow: 0 5px 25px rgba(1 1 1 / 25%);
+   border-radius: 10px;
+   transition: 0.8s;
+   padding: 30px 35px;
+}
+
+.facebook_icon
+{
+   color: #1900ff;
+   font-size: 3em;
+   font-weight: bold;
+   text-align: center;
+}
+
+.fb_card:hover
+{
+   transform: scale(1.1);
+}
+
+.footer
+{
+   background-color: #160d8a;
+   color: #fff;
+   padding: 1.5em;
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer_title
+{
+   font-size: 1.3em;
+   font-weight: 600;
+}
+
+.footer_title span
+{
+   color: #f519b3;
+}
+
+
+@keyframes Color{
+   0%{color:#A0D468;}
+   
+   20%{color:#4FC1E9;}
+   
+   40%{color:#FFCE54;}
+   
+   60%{color:#FC6E51;}
+   
+   80%{color:#ED5565;}
+   
+   100%{color:#AC92EC;}
+}
+
+
+
+@media (max-width:1023px)
+{
+   header
+   {
+      padding: 12px 20px;
+   }
+   .navigation a
+   {
+      padding-left: 10px;
+   }
+   .title
+   {
+      font-size: 1.8em;
+   }
+   section
+   {
+      padding: 80px 20px;
+   }
+   .main h2
+   {
+      font-size: 1.em;
+   }
+}
+
+@media (max-width:641px)
+{
+   body
+   {
+      font-size: 12px;
+   }
+   .main h2
+   {
+      font-size: 0.8em;
+   }
+   .main h3
+   {
+         font-size: 1.4em;
+   }
+}
+
+@media (max-width:300px)
+{
+   body
+   {
+      font-size: 10px;
+   }
+}
