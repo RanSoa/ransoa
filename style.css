@@ -123,7 +123,7 @@ section
 {
    display: flex;
    justify-content: center;
-   color: #0b18d8;
+   color: #310bd8;
    font-weight: 900;
    font-size: 2.2em;
    margin-bottom: 30px;
@@ -186,7 +186,7 @@ section
    flex-wrap: wrap;
 }
 
-.fb_card
+.telegram_card
 {
    background-color: #ffffff;
    width: 15.25em;
@@ -194,17 +194,42 @@ section
    border-radius: 10px;
    transition: 0.8s;
    padding: 30px 35px;
+   margin: 30px;
 }
 
-.facebook_icon
+.telegram_icon
 {
-   color: #1900ff;
+   color: #25c5d6;
    font-size: 3em;
    font-weight: bold;
    text-align: center;
 }
 
-.fb_card:hover
+.telegram_card:hover
+{
+   transform: scale(1.1);
+}
+
+.discord_card
+{
+   background-color: #ffffff;
+   width: 15.25em;
+   box-shadow: 0 5px 25px rgba(1 1 1 / 25%);
+   border-radius: 10px;
+   transition: 0.8s;
+   padding: 30px 35px;
+   margin: 30px;
+}
+
+.discord_icon
+{
+   color: #df22d5;
+   font-size: 3em;
+   font-weight: bold;
+   text-align: center;
+}
+
+.discord_card:hover
 {
    transform: scale(1.1);
 }
