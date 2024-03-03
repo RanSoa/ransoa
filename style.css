@@ -271,50 +271,74 @@ section
 
 
 
-@media (max-width:1023px)
+@media (max-width:1024px)
 {
    header
    {
-      padding: 12px 20px;
+      padding: 30px 50px;
    }
-   .navigation a
+   .logo
    {
-      padding-left: 10px;
+      font-size: 2.3em;
    }
-   .title
+   .main
    {
-      font-size: 1.8em;
+      font-size: 1.6em;
+      font-weight: 800;
    }
-   section
-   {
-      padding: 80px 20px;
-   }
-   .main h2
-   {
-      font-size: 1.em;
-   }
+   .callme
+{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
 }
 
-@media (max-width:641px)
+.telegram_card
 {
-   body
-   {
-      font-size: 12px;
-   }
-   .main h2
-   {
-      font-size: 0.8em;
-   }
-   .main h3
-   {
-         font-size: 1.4em;
-   }
+   background-color: #ffffff;
+   width: 15.25em;
+   box-shadow: 0 5px 25px rgba(1 1 1 / 25%);
+   border-radius: 10px;
+   transition: 0.8s;
+   padding: 50px 55px;
+   margin: 35px;
 }
 
-@media (max-width:300px)
+.telegram_icon
 {
-   body
-   {
-      font-size: 10px;
-   }
+   color: #25c5d6;
+   font-size: 5em;
+   font-weight: bold;
+   text-align: center;
+}
+
+.telegram_card:hover
+{
+   transform: scale(1.1);
+}
+
+.discord_card
+{
+   background-color: #ffffff;
+   width: 15.25em;
+   box-shadow: 0 5px 25px rgba(1 1 1 / 25%);
+   border-radius: 10px;
+   transition: 0.8s;
+   padding: 50px 55px;
+   margin: 35px;
+}
+
+.discord_icon
+{
+   color: #df22d5;
+   font-size: 5em;
+   font-weight: bold;
+   text-align: center;
+}
+
+.discord_card:hover
+{
+   transform: scale(1.1);
+}
 }
