@@ -279,7 +279,7 @@ section
    }
    .logo
    {
-      font-size: 2.3em;
+      font-size: 2.7em;
    }
    .main
    {
@@ -331,7 +331,7 @@ section
 
 .discord_icon
 {
-   color: #df22d5;
+   color: #f54aec;
    font-size: 5em;
    font-weight: bold;
    text-align: center;
@@ -340,5 +340,33 @@ section
 .discord_card:hover
 {
    transform: scale(1.1);
+}
+.navigation
+{
+   font-size: 2.1em;
+}
+.card
+{
+   padding: 20px 25px;
+}
+.icon
+{
+   font-size: 4.2em;
+}
+.details
+{
+   font-size: 1.1em;
+}
+.footer
+{
+   padding: 1.6em;
+}
+.footer_title
+{
+   font-size: 1.7em;
+}
+.social-icons
+{
+   font-size: 1.3em;
 }
 }
