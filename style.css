@@ -6,6 +6,7 @@
    padding: 0;
    box-sizing: border-box;
    scroll-behavior: smooth;
+   transition: .2s linear;
 }
 
 header
@@ -97,7 +98,7 @@ section
    border-radius: 15px;
    margin-bottom: 40px;
    margin-top: 25px;
-   transition: 0.8s ease;
+   transition: 0.8s linear;
 }
 
 .main-btn:hover
