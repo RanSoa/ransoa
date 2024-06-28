@@ -27,6 +27,7 @@ body
    height: 310px;
    margin: 10px;
    border-radius: 10px;
+   flex-wrap: wrap;
 }
 
 .card-image
