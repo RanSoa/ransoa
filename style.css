@@ -6,119 +6,137 @@
    padding: 0;
    box-sizing: border-box;
    scroll-behavior: smooth;
-   transition: .2s linear;
+   transition: 0.2s linear;
 }
 
 header
 {
-   background-color: rgb(9, 2, 70);
-   z-index: 999;
-   width: 100%;
-   position: fixed;
-   display: flex;
-   justify-content: space-between;
-   padding: 20px 50px;
-   align-items: center;
-}
-.logo
-{
-   text-decoration: none;
-   font-family: 'Poppins', Courier New, monospace;
-   color: #f519b3;
-   width: 1.6em;
-   font-size: 1.6em;
-   font-weight: 700;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
 }
 
-.navigation a
+.navbar-toggler
 {
-   text-decoration: none;
-   color: rgb(255, 94, 0);
-   font-weight: 500;
-   font-size: 1.15em;
-   width: 1.5em;
-   padding-left: 50px;
+    color: #9c0cf0;
+    background-color: #ad4d8d;
 }
 
-.navigation a:hover
+.navbar-brand
 {
-   color: rgb(166, 255, 0);
+    font-size: 1.7em;
+    font-weight: 650;
+    color: rgb(255, 0, 85);
+    margin-left: 30px;
 }
 
-section
+.navbar-brand:hover
 {
-   padding: 100px 150px;
+    color: rgb(243, 28, 243);
 }
 
-.main
+.nav-link
 {
-   width: 100%;
-   min-height: 100vh;
-   display: flex;
-   align-items: center;
-   background-size: cover;
-   background-position: center;
-   background: url(assets/Images/6372463_3200146.jpg);
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #e24a03;
 }
 
-.main h2
+.nav-link:hover
 {
-   color: white;
-   font-size: 1.6em;
+    color: #1ce426;
+}
+
+.text
+{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 100px;
+    top: 180px;
+}
+
+.text h2
+{
+    color: white;
+   font-size: 1.8em;
    font-weight: 800;
 }
 
-.main h2 span
+.text h2 span
 {
-   display: inline-block;
-   margin-top: 10px;
+    display: inline-block;
+   margin-top: 20px;
    color: #ff008c;
    font-size: 1.8em;
    animation: Color 4s linear infinite;
 }
 
-.main h3
+.d-block
 {
-   color: white;
-   font-size: 1.6em;
-   font-weight: 700;
-   letter-spacing: 1px;
+    height: 600px;
 }
 
-.main-btn
+.hire-now
 {
-   text-decoration: none;
-   color: #ffffff;
-   background-color: #f519b3;
-   font-size: 1.1em;
-   font-weight: 650;
-   display: inline-block;
-   padding: 0.9375em 2.187em;
-   letter-spacing: 1px;
-   border-radius: 15px;
-   margin-bottom: 40px;
-   margin-top: 25px;
-   transition: 0.8s linear;
+    display: flex;
+    padding: 15px 40px;
+    border-radius: 5px;
+    background-color: #d80b94;
+    color: #fff;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
-.main-btn:hover
+.hire-now:hover
 {
-   background-color: #f30f2d;
-   transform: scale(1.1);
+    scale: 1.1;
+    transition: 0.7s;
+    background-color: #ec1c1c;
 }
 
-
-.social-icons a
+.social-icons
 {
-   color: #f519b3;
-   font-size: 1.6em;
-   padding-right: 30px;
+    display: flex;
+    letter-spacing: 10px;
+    font-size: 1.6em;
+    margin-top: 30px;
 }
 
-.social-icons a:hover
+.social-icons #fa-youtube
 {
-   color: #f30f2d;
+    color: #ec1c1c;
 }
+
+.social-icons #fa-youtube:hover
+{
+    color: #d80b94;
+}
+
+.social-icons #fa-telegram
+{
+    color: #4FC1E9;
+}
+
+.social-icons #fa-telegram:hover
+{
+    color: #311cec;
+}
+
+.social-icons #fa-discord
+{
+    color: #fff;
+}
+
+.social-icons #fa-discord:hover
+{
+    color: #a17575;
+}
+
 
 .title
 {
@@ -127,247 +145,122 @@ section
    color: #310bd8;
    font-weight: 900;
    font-size: 2.2em;
-   margin-bottom: 30px;
+   margin-top: 30px;
 }
 
-.content
-{
-   display: flex;
-   justify-content: center;
-   flex-direction: row;
-   flex-wrap: wrap;
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.card
+.Cards
 {
-   background-color: #ffffff;
-   width: 15.25em;
-   box-shadow: 0 5px 25px rgba(1 1 1 / 25%);
-   border-radius: 10px;
-   transition: 0.8s;
-   padding: 30px 35px;
+    width: auto;
+    height: 600px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 19.25em;
+    box-shadow: rgba(1, 1, 1, 0.25) 0px 5px 25px;
+    border-radius: 10px;
+    transition: all 0.8s ease 0s;
+    padding: 35px 45px;
+    margin-top: 25px;
 }
 
 .card:hover
 {
-   transform: scale(1.1);
+    scale: 1.1;
 }
 
-.icon
-{
-   color: #ff00b3;
-   font-size: 3em;
-   font-weight: bold;
-   text-align: center;
+.icon {
+    color: rgb(255, 0, 179);
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
 }
 
-.details h3
-{
-   color: #f30f2d;
-   font-size: 1.4em;
-   font-weight: 800;
-   margin: 10px;
+.details h3 {
+    display: block;
+    font-size: 1.6em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    text-align: center;
+    font-weight: bold;
+    color: #ec1c1c;
 }
 
-.details
+.details p
 {
-   text-align: center;
+    font-weight: 500;
+    text-align: center;
 }
 
-.contact
+.Projects
 {
-   box-shadow: 0 5px 25px rgba(1, 1, 1, 100%);
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
 }
 
-.callme
+.projects
 {
-   display: flex;
+    display: flex;
    justify-content: center;
-   flex-direction: row;
-   flex-wrap: wrap;
+   color: #d80b94;
+   font-weight: 900;
+   font-size: 2.2em;
+   margin-top: 30px;
 }
 
-.telegram_card
+.content2
 {
-   background-color: #ffffff;
-   width: 15.25em;
-   box-shadow: 0 5px 25px rgba(1 1 1 / 25%);
-   border-radius: 10px;
-   transition: 0.8s;
-   padding: 30px 35px;
-   margin: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.telegram_icon
+footer
 {
-   color: #25c5d6;
-   font-size: 3em;
-   font-weight: bold;
-   text-align: center;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: #311cec;
 }
 
-.telegram_card:hover
+.Copyright
 {
-   transform: scale(1.1);
+    margin-top: 15px;
+    color: #fff;
 }
 
-.discord_card
-{
-   background-color: #ffffff;
-   width: 15.25em;
-   box-shadow: 0 5px 25px rgba(1 1 1 / 25%);
-   border-radius: 10px;
-   transition: 0.8s;
-   padding: 30px 35px;
-   margin: 30px;
-}
 
-.discord_icon
-{
-   color: #df22d5;
-   font-size: 3em;
-   font-weight: bold;
-   text-align: center;
-}
 
-.discord_card:hover
-{
-   transform: scale(1.1);
-}
 
-.footer
-{
-   background-color: #160d8a;
-   color: #fff;
-   padding: 1.5em;
-   display: flex;
-   justify-content: space-between;
-}
-
-.footer_title
-{
-   font-size: 1.3em;
-   font-weight: 600;
-}
-
-.footer_title span
-{
-   color: #f519b3;
-}
 
 
 @keyframes Color{
-   0%{color:#A0D468;}
-   
-   20%{color:#4FC1E9;}
-   
-   40%{color:#FFCE54;}
-   
-   60%{color:#FC6E51;}
-   
-   80%{color:#ED5565;}
-   
-   100%{color:#AC92EC;}
-}
-
-
-
-@media (max-width:1024px)
-{
-   header
-   {
-      padding: 30px 50px;
-   }
-   .logo
-   {
-      font-size: 2.7em;
-   }
-   .main
-   {
-      font-size: 1.6em;
-      font-weight: 800;
-   }
-   .callme
-{
-   display: flex;
-   justify-content: center;
-   flex-direction: row;
-   flex-wrap: wrap;
-}
-
-.telegram_card
-{
-   background-color: #ffffff;
-   width: 15.25em;
-   box-shadow: 0 5px 25px rgba(1 1 1 / 25%);
-   border-radius: 10px;
-   transition: 0.8s;
-   padding: 50px 55px;
-   margin: 35px;
-}
-
-.telegram_icon
-{
-   color: #25c5d6;
-   font-size: 5em;
-   font-weight: bold;
-   text-align: center;
-}
-
-.telegram_card:hover
-{
-   transform: scale(1.1);
-}
-
-.discord_card
-{
-   background-color: #ffffff;
-   width: 15.25em;
-   box-shadow: 0 5px 25px rgba(1 1 1 / 25%);
-   border-radius: 10px;
-   transition: 0.8s;
-   padding: 50px 55px;
-   margin: 35px;
-}
-
-.discord_icon
-{
-   color: #f54aec;
-   font-size: 5em;
-   font-weight: bold;
-   text-align: center;
-}
-
-.discord_card:hover
-{
-   transform: scale(1.1);
-}
-.navigation
-{
-   font-size: 2.1em;
-}
-.card
-{
-   padding: 20px 25px;
-}
-.icon
-{
-   font-size: 4.2em;
-}
-.details
-{
-   font-size: 1.1em;
-}
-.footer
-{
-   padding: 1.6em;
-}
-.footer_title
-{
-   font-size: 1.7em;
-}
-.social-icons
-{
-   font-size: 1.3em;
-}
-}
+    0%{color:#A0D468;}
+    
+    20%{color:#4FC1E9;}
+    
+    40%{color:#FFCE54;}
+    
+    60%{color:#FC6E51;}
+    
+    80%{color:#ED5565;}
+    
+    100%{color:#AC92EC;}
+ }
