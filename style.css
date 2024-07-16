@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+   font-family: 'Poppins', Courier, monospace;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+   transition: 0.2s linear;
+}
+
+header
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+.navbar-toggler
+{
+    color: #9c0cf0;
+    background-color: #ad4d8d;
+}
+
+.navbar-brand
+{
+    font-size: 1.7em;
+    font-weight: 650;
+    color: rgb(255, 0, 85);
+    margin-left: 30px;
+}
+
+.navbar-brand:hover
+{
+    color: rgb(243, 28, 243);
+}
+
+.nav-link
+{
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #e24a03;
+}
+
+.nav-link:hover
+{
+    color: #1ce426;
+}
+
+.text
+{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 100px;
+    top: 180px;
+}
+
+.text h2
+{
+    color: white;
+   font-size: 1.8em;
+   font-weight: 800;
+}
+
+.text h2 span
+{
+    display: inline-block;
+   margin-top: 20px;
+   color: #ff008c;
+   font-size: 1.8em;
+   animation: Color 4s linear infinite;
+}
+
+.d-block
+{
+    height: 600px;
+} 
+
+.hire-now
+{
+    display: flex;
+    text-decoration: none !important;
+    padding: 15px 40px;
+    border-radius: 5px;
+    background-color: #d80b94;
+    color: #fff;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.hire-now:hover
+{
+    scale: 1.1;
+    transition: 0.7s;
+    background-color: #ec1c1c;
+}
+
+.social-icons
+{
+    display: flex;
+    letter-spacing: 10px;
+    font-size: 1.6em;
+    margin-top: 30px;
+}
+
+.social-icons #fa-youtube
+{
+    color: #ec1c1c;
+}
+
+.social-icons #fa-youtube:hover
+{
+    color: #d80b94;
+}
+
+.social-icons #fa-telegram
+{
+    color: #4FC1E9;
+}
+
+.social-icons #fa-telegram:hover
+{
+    color: #311cec;
+}
+
+.social-icons #fa-discord
+{
+    color: #fff;
+}
+
+.social-icons #fa-discord:hover
+{
+    color: #a17575;
+}
+
+
+.title
+{
+   display: flex;
+   justify-content: center;
+   color: #310bd8;
+   font-weight: 900;
+   font-size: 2.2em;
+   margin-top: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Cards
+{
+    width: auto;
+    height: 600px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 19.25em;
+    box-shadow: rgba(1, 1, 1, 0.25) 0px 5px 25px;
+    border-radius: 10px;
+    transition: all 0.8s ease 0s;
+    padding: 35px 45px;
+    margin-top: 25px;
+}
+
+.card:hover
+{
+    scale: 1.1;
+}
+
+.icon {
+    color: rgb(255, 0, 179);
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.details h3 {
+    display: block;
+    font-size: 1.6em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    text-align: center;
+    font-weight: bold;
+    color: #ec1c1c;
+}
+
+.details p
+{
+    font-weight: 500;
+    text-align: center;
+}
+
+.Projects
+{
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.projects
+{
+    display: flex;
+   justify-content: center;
+   color: #d80b94;
+   font-weight: 900;
+   font-size: 2.2em;
+   margin-top: 30px;
+}
+
+.content2
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer
+{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: #311cec;
+}
+
+.Copyright
+{
+    margin-top: 15px;
+    color: #fff;
+}
+
+.RanDev
+{
+    color: #d80b94;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+
+
+
+@keyframes Color{
+    0%{color:#A0D468;}
+    
+    20%{color:#4FC1E9;}
+    
+    40%{color:#FFCE54;}
+    
+    60%{color:#FC6E51;}
+    
+    80%{color:#ED5565;}
+    
+    100%{color:#AC92EC;}
+ }
